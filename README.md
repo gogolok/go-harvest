@@ -1,5 +1,7 @@
 # go-harvest
 
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/gogolok/go-harvest)](https://pkg.go.dev/github.com/gogolok/go-harvest)
+
 go-harvest is a Go client library for accessing the [Harvest API](https://help.getharvest.com/api-v2/).
 
 ## Usage
