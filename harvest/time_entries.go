@@ -7,28 +7,28 @@ import (
 type TimeEntriesService service
 
 type Project struct {
-	Id   int
-	Name string
+	Id   int    `json:"id"`
+	Name string `json:"name"`
 }
 
 type User struct {
-	Id   int
-	Name string
+	Id   int    `json:"id"`
+	Name string `json:"name"`
 }
 
 type Task struct {
-	Id   int
-	Name string
+	Id   int    `json:"id"`
+	Name string `json:"name"`
 }
 
 type TimeEntry struct {
-	Id        int
-	Hours     float64
-	Notes     string
-	Project   Project
-	User      User
-	Task      Task
-	SpentDate string `json:"spent_date"`
+	Id        int     `json:"id"`
+	Hours     float64 `json:"hours"`
+	Notes     string  `json:"notes"`
+	Project   Project `json:"project"`
+	User      User    `json:"user"`
+	Task      Task    `json:"task"`
+	SpentDate string  `json:"spent_date"`
 }
 
 // TimeEntriesListOptions specifies the optional parameters to the
